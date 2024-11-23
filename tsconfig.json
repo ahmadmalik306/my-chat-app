@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",            // Use ESNext or ES6 to enable ES modules
+    "target": "es5",            // Target ES2022 or higher for top-level await support
+    "moduleResolution": "node",    // Node.js style module resolution
+    "esModuleInterop": true,       // Ensures interoperability with CommonJS modules
+    "allowJs": true,               // Allows JavaScript files to be compiled
+    "skipLibCheck": true,          // Optional: skips type checking for declaration files
+    "strict": false,                // Optional: enables strict type checking
+    "outDir": "./dist",            // Specify the output directory for compiled files
+    "resolveJsonModule": true      // Allows importing JSON modules (optional)
+  },
+  "include": [
+    "src/**/*.ts"                  // Include all TypeScript files in the src directory
+  ],
+  "exclude": [
+    "node_modules"                 // Exclude node_modules directory
+  ]
+}
